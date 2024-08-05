@@ -1,0 +1,7 @@
+workspaces:
+  - name: example
+    path: ~/workspace/polyrepo-example
+    repositories:
+      - url: git@github.com:polyrepopro/example-test-repo.git
+        branch: main
+        path: examples/example-test-repo
